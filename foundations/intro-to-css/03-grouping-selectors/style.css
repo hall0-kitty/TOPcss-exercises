@@ -1,0 +1,17 @@
+.short{
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman" sans-serif;
+}
+
+  /* several unique declarations */
+
+.short.swift{
+    background-color: black;
+    color: white;
+}
+  /* several unique declarations */
+
+  .short.bold{
+    background-color: yellow;
+    color: black;
+  }

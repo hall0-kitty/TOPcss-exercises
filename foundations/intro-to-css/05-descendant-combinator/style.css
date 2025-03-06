@@ -1,6 +1,14 @@
 .container .text {
+<<<<<<< HEAD
     background-color: yellow;
     color: red;
     font-size: 20px;
     align-content: center;
     }
+=======
+background-color: yellow;
+color: red;
+font-size: 20px;
+align-content: center;
+}
+>>>>>>> 0e36457ed06cf4056faa80447d1aebefe10d2d24
