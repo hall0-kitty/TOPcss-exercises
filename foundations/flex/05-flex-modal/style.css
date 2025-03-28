@@ -5,6 +5,9 @@ html, body {
 }
 
 body {
+  /* these are my edits */
+gap: 16px;
+  /* up to here */
   font-family: Roboto, sans-serif;
   margin: 0;
   background: #aaa;
@@ -14,13 +17,42 @@ body {
   align-items: center;
   justify-content: center;
 }
+/* header is my whole edit */
+.header{
+  /* display: flex; */
+font-weight: bold;
+font-size: larger;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  /* margin: 16px; */
+}
+.text{
+  /* padding: 16px; */
+  /* display: flex; */
+  margin: 4px;
+  padding-bottom: 8px;
+/* max-width: 400px; */
 
+}
+.content{
+  padding: 8px;
+  margin: 4px
+
+}
+/* up to here  */
 .modal {
+  display: flex;
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+
 }
+
 
 .icon {
   color: royalblue;
@@ -33,6 +65,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
+  margin: 8px;
 }
 
 .close-button {
